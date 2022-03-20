@@ -1,0 +1,32 @@
+/* lang - lao*/
+@font-face {
+    font-family: "saysettha_ot"; 
+    src: url("../font/saysettha_ot.eot"); 
+    src: url("../font/saysettha_ot.eot?#iefix") format("embedded-opentype"), 
+    url("../font/saysettha_ot.woff") format("woff"), 
+    url("../font/saysettha_ot.ttf") format("truetype"), 
+    url("../font/saysettha_ot.svg#saysettha_ot") format("svg"); 
+    font-weight: normal; font-style: normal; font-display: swap; 
+}
+
+#lang-lao {font-family: 'poppins', 'saysettha_ot',  arial, "dotum", 'Malgun Gothic',  -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: normal; }
+#lang-lao .header .container { min-width: 1280px;}
+#lang-lao .header #gnb ul li .sub-nav {left: -24px; width: 200px; }
+#lang-lao .sitemap .apply-now { font-weight: bold;}
+/* #lang-lao{} */
+
+
+@media screen and (max-width: 768px) {  
+    #lang-lao .header .container { min-width: initial;}
+    .quick-menu { flex-wrap: wrap}
+    .quick-menu  a , 
+    .quick-menu  a:hover { width: 50%;}
+    .quick-menu  a:nth-of-type(3),
+    .quick-menu  a:nth-of-type(4) { margin-top: 20px;}
+    .quick-menu  a i { margin: auto}
+    .quick-menu a .label { max-width: initial;}
+}
+@media screen and (max-width: 414px) {  
+    #lang-lao .header { padding-right: 0;}
+    #lang-lao .header .call::after { margin-left: 10px;margin-right: 4px; }
+}
